@@ -1,21 +1,58 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import Img from 'gatsby-image'
 import Layout from '../components/layout'
-import Image from '../components/image'
 import SEO from '../components/seo'
+import About from '../components/about'
+import ProjectList from '../components/ProjectList'
 
-const IndexPage = () => (
+import { checkPropTypes } from 'prop-types';
+
+const IndexPage = (props) => (
   <Layout>
-    <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <SEO title="Kelli Blalock" keywords={['seattle software engineer', 'seattle web developer', 'bellevue web developer', 'javascript developer', 'web developer portfolio']} />
+    <h1>Kelli Blalock</h1>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
+    <About data={props.data} />
+    <ProjectList data={props.data}/>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
 export default IndexPage
+
+export const squareImage = graphql`
+  fragment portfolioImage on File {
+    childImageSharp {
+      fluid(maxWidth: 600, maxHeight: 400) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  `
+
+export const pageQuery = graphql`
+  query {
+    headshotImage: file(relativePath: { eq: "kelli.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    project1: file(relativePath: { eq: "project1.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+      project2: file(relativePath: { eq: "project2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`

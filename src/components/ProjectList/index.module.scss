@@ -1,0 +1,18 @@
+li {
+    list-style-type: none;
+    border: 1px solid #bcbbbb;
+    padding: .25rem .75rem !important;
+
+    div, h3 {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    img  {
+        border: 1px solid #bcbbbb;
+        border-radius: 5px;
+    }
+}

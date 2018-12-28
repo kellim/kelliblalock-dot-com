@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Farmer's Market Finder",
+    "image": "project1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "gitHubLink": "https://github.com/kellim/farmers-market-finder",
+    "demoLink": "https://kellim.github.io/farmers-markets/"
+  },
+  {
+    "name": "Link Collector",
+    "image": "project2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "gitHubLink": "https://github.com/kellim/link-collector",
+    "demoLink": "https://links.pythonanywhere.com/"
+  },
+  {
+    "name": "Hearthstone Deck Saver",
+    "image": "project1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "gitHubLink": "https://github.com/kellim/hs-deck-saver",
+    "demoLink": "http://hsdecksaver.surge.sh/"
+  },
+  {
+    "name": "Meditation Timer",
+    "image": "project1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "gitHubLink": "https://github.com/kellim/meditation-timer",
+    "demoLink": "https://meditationtimer.surge.sh/"
+  }
+]
