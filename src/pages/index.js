@@ -12,9 +12,9 @@ const IndexPage = (props) => (
   <Layout>
     <SEO title="Kelli Blalock" keywords={['seattle software engineer', 'seattle web developer', 'bellevue web developer', 'javascript developer', 'web developer portfolio']} />
     <h1>Kelli Blalock</h1>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-    <About data={props.data} />
-    <ProjectList data={props.data}/>
+    <div>
+      <About data={props.data} />
+      <ProjectList data={props.data}/>
     </div>
   </Layout>
 )
@@ -35,7 +35,7 @@ export const pageQuery = graphql`
   query {
     headshotImage: file(relativePath: { eq: "kelli.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500) {
+        fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid
         }
       }
