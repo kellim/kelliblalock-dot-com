@@ -21,38 +21,30 @@ const IndexPage = (props) => (
 
 export default IndexPage
 
-export const squareImage = graphql`
-  fragment portfolioImage on File {
+export const projectImage = graphql`
+  fragment projectImage on File {
     childImageSharp {
-      fluid(maxWidth: 600, maxHeight: 400) {
+      fluid(maxHeight: 300) {
         ...GatsbyImageSharpFluid
       }
     }
   }
-  `
+`;
 
 export const pageQuery = graphql`
   query {
     headshotImage: file(relativePath: { eq: "kelli.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 300) {
+        fluid(maxWidth: 250) {
           ...GatsbyImageSharpFluid
         }
       }
-    },
+    }
     project1: file(relativePath: { eq: "project1.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 600) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    },
-      project2: file(relativePath: { eq: "project2.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 600) {
-          ...GatsbyImageSharpFluid
-        }
-      }
+      ...projectImage
+    }
+    project2: file(relativePath: { eq: "project2.jpg" }) {
+      ...projectImage
     }
   }
 `
