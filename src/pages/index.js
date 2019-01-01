@@ -3,16 +3,18 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Main from '../components/main'
 import About from '../components/about'
 import ProjectList from '../components/ProjectList'
 
 import { checkPropTypes } from 'prop-types';
 
+
 const IndexPage = (props) => (
   <Layout>
     <SEO title="Kelli Blalock" keywords={['seattle software engineer', 'seattle web developer', 'bellevue web developer', 'javascript developer', 'web developer portfolio']} />
-    <h1>Kelli Blalock</h1>
     <div>
+      <Main />
       <About data={props.data} />
       <ProjectList data={props.data}/>
     </div>
