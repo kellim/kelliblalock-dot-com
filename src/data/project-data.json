@@ -15,14 +15,14 @@
   },
   {
     "name": "Hearthstone Deck Saver",
-    "image": "project1",
+    "image": "project3",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "gitHubLink": "https://github.com/kellim/hs-deck-saver",
     "demoLink": "http://hsdecksaver.surge.sh/"
   },
   {
     "name": "Meditation Timer",
-    "image": "project1",
+    "image": "project4",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "gitHubLink": "https://github.com/kellim/meditation-timer",
     "demoLink": "https://meditationtimer.surge.sh/"
