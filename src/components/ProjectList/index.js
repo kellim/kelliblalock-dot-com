@@ -6,11 +6,11 @@ const projectData = require('../../data/project-data.json')
 
 const Project = (props) => (
     <li><h3>{props.name}</h3>
-    <div className={styles.projectImage}>
-        <a href={props.gitHubLink}><Img fluid={props.image.childImageSharp.fluid} alt={props.name} /></a>
-      </div>
-      <p>{props.description}</p>
-      <div><a href={props.gitHubLink}>GitHub</a> | <a href={props.demoLink}>Demo</a></div>
+        <div className={styles.projectImage}>
+            <a href={props.gitHubLink}><Img fluid={props.image.childImageSharp.fluid} alt={props.name} /></a>
+        </div>
+        <div className={styles.links}><a href={props.gitHubLink}>GitHub</a> | <a href={props.demoLink}>Demo</a></div>
+        <p>{props.description}</p>
     </li>
   )
 

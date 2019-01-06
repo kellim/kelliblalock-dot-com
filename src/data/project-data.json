@@ -2,28 +2,28 @@
   {
     "name": "Farmer's Market Finder",
     "image": "project1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "Web app built with JavaScript, jQuery, Bootstrap and Knockout that lets visitors enter a US zip code and shows nearby Farmers Markets based on data obtained from the USDA National Farmers Market Directory on a Google Map.",
     "gitHubLink": "https://github.com/kellim/farmers-market-finder",
     "demoLink": "https://kellim.github.io/farmers-markets/"
   },
   {
     "name": "Link Collector",
     "image": "project2",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "Multi-user bookmarking web app built with Python and Flask that users can log in to with Google.",
     "gitHubLink": "https://github.com/kellim/link-collector",
     "demoLink": "https://links.pythonanywhere.com/"
   },
   {
     "name": "Hearthstone Deck Saver",
     "image": "project3",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "Web app built with JavaScript that lets you save copied Hearthstone® decks to the browser's local storage.",
     "gitHubLink": "https://github.com/kellim/hs-deck-saver",
     "demoLink": "http://hsdecksaver.surge.sh/"
   },
   {
     "name": "Meditation Timer",
     "image": "project4",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "Meditation Timer web app built with JavaScript that lets you input the number of minutes you'd like to meditate and alerts you when the time is up.",
     "gitHubLink": "https://github.com/kellim/meditation-timer",
     "demoLink": "https://meditationtimer.surge.sh/"
   }

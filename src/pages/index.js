@@ -26,7 +26,7 @@ export default IndexPage
 export const projectImage = graphql`
   fragment projectImage on File {
     childImageSharp {
-      fluid(maxHeight: 300) {
+      fluid(maxHeight: 600) {
         ...GatsbyImageSharpFluid
       }
     }
@@ -42,16 +42,16 @@ export const pageQuery = graphql`
         }
       }
     }
-    project1: file(relativePath: { eq: "project1.jpg" }) {
+    project1: file(relativePath: { eq: "project1.png" }) {
       ...projectImage
     }
-    project2: file(relativePath: { eq: "project2.jpg" }) {
+    project2: file(relativePath: { eq: "project2.png" }) {
       ...projectImage
     }
-    project3: file(relativePath: { eq: "project3.jpg" }) {
+    project3: file(relativePath: { eq: "project3.png" }) {
       ...projectImage
     }
-    project4: file(relativePath: { eq: "project4.jpg" }) {
+    project4: file(relativePath: { eq: "project4.png" }) {
       ...projectImage
     }
   }
