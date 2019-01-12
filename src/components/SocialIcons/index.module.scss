@@ -1,3 +1,9 @@
 .socialIcons {
-
+    display: flex;
+    justify-content: center;
+    
+    a {
+        margin: 2rem;
+    }
 }
+
