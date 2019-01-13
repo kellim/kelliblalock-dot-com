@@ -1,9 +1,9 @@
 import Typography from "typography"
-import judahTheme from 'typography-theme-judah'
+import fairyGatesTheme from 'typography-theme-fairy-gates'
 
-judahTheme.baseFontSize = '10px'
+fairyGatesTheme.baseFontSize = '10px'
 const typography = new Typography(
-    judahTheme
+    fairyGatesTheme
 )
 
 export default typography
