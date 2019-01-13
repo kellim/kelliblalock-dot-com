@@ -11,13 +11,19 @@
 
   p {
     margin: 1rem;
-    font-size: 2rem;
   }
 
   img {
     border-radius: 50%;
   }
 
+  @media(min-width: 481px) {
+    p {
+      font-size: 2.2rem;
+    }
+
+  }
+  
   @media(min-width: 768px) {
     display: grid;
     grid-template-columns: 25rem auto;

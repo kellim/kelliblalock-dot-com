@@ -6,7 +6,7 @@ import SocialIcons from '../SocialIcons'
 const Main = (props) => (
   <div className={styles.main}>
     <h1>Kelli Blalock</h1>
-    <h2>Web Developer based in the Seattle Area</h2>
+    <h2>Web Developer</h2>
     <SocialIcons />
   </div>
  )
