@@ -15,7 +15,7 @@ const Project = (props) => (
   )
 
 const ProjectList = (props) => (
-    <div class={styles.projectList}>
+    <div className={styles.projectList}>
         <h2>Projects</h2>
         <ul>
             {projectData.map((project) =>

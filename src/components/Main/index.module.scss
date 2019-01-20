@@ -1,28 +1,38 @@
 .main {
     text-align: center;
+    background-color: $light_mint;
+    color: $dark_mint;
+    padding: 6rem .5rem;
+    margin: 0;
 
     h1 {
-        font-size: 3rem;
+        font-size: 5.4rem;
+        font-weight: 700;
+
+        @media(min-width: 48.1em) {
+            font-size: 8.4rem;
+        }
+
+        @media(min-width: 76.8em) {
+            font-size: 9.4rem;
+        }
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 4.4rem;
+        font-weight: 300;
         margin-top: 0;
+
+        @media(min-width: 48.1em) {
+            font-size: 6.4rem;
+        }
+
+        @media(min-width: 76.8em) {
+            font-size: 7.4rem;
+        }
     }
 
-    @media(min-width: 481px) {
-
-        h1 {
-            font-size: 6rem;
-        }
-        
-        h2 {
-            font-size: 4.5rem;
-        }
-
-        p {
-            font-size: 2.2rem;
-        }
-        
+    @media(min-width: 48.1em) {
+        padding: 10rem 1rem;
     }
 }
