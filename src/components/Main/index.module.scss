@@ -2,18 +2,18 @@
     text-align: center;
     background-color: $light_mint;
     color: $dark_mint;
-    padding: 6rem .5rem;
+    padding: #{$component_padding} 1rem;
     margin: 0;
 
     h1 {
         font-size: 5.4rem;
         font-weight: 700;
 
-        @media(min-width: 48.1em) {
+        @media #{$small} {
             font-size: 8.4rem;
         }
 
-        @media(min-width: 76.8em) {
+        @media #{$medium} {
             font-size: 9.4rem;
         }
     }
@@ -23,16 +23,12 @@
         font-weight: 300;
         margin-top: 0;
 
-        @media(min-width: 48.1em) {
+        @media #{$small} {
             font-size: 6.4rem;
         }
 
-        @media(min-width: 76.8em) {
+        @media #{$medium} {
             font-size: 7.4rem;
         }
-    }
-
-    @media(min-width: 48.1em) {
-        padding: 10rem 1rem;
     }
 }

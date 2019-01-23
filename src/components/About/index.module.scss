@@ -1,32 +1,58 @@
 .about {
 
-  & > div {
-    max-width: 250px;
-    margin: 0 auto;
-
-    @media(min-width: 768px) {
-      margin: 1rem 0;
-    }
-  }
-
-  p {
-    margin: 1rem;
-  }
+  padding: 0 #{$side_padding} #{$component_padding} #{$side_padding};
+  max-width: 110rem;
 
   img {
     border-radius: 50%;
   }
 
-  @media(min-width: 481px) {
-    p {
-      font-size: 2.2rem;
+   .headshot {
+    max-width: 15rem; 
+    transform: translate(0, -7.5rem); /* issue using absolute positioning with gatsby-image */
+    margin: 0 auto;
+
+     @media #{$medium} {
+      align-self: center;
+      margin: 0;
+      max-width: 25rem;
+      transform: none;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+
+    @media #{$medium} {
+      margin-left: -25rem; /* Needed for centering */
     }
 
   }
-  
-  @media(min-width: 768px) {
+
+  .myInfo {
+    padding: 0;
+    margin-top: -7.5rem;
+
+    @media #{$medium} {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  p {
+    font-size: 1.8rem;
+
+    @media #{$small} {
+      font-size: 2.2rem;
+    }
+  }
+
+  @media #{$medium} {
+    padding-top: #{$component_padding};
     display: grid;
     grid-template-columns: 25rem auto;
     grid-column-gap: 2rem;
+    margin: 0 auto;
   }
 }

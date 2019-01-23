@@ -3,3 +3,13 @@ $light_mint: #c6f1ea;
 $dark_mint:  #248B7A;
 $black: #2b2b2b;
 $white: #fff;
+
+// Media Query Breakpoints
+$small:  "(min-width: 481px)";
+$medium: "(min-width: 768px)";
+$large: "(min-width: 992px)";
+$extraLarge: "(min-width: 1200px)";
+
+// Padding
+$component_padding: "5rem";
+$side_padding: "1.5rem";
