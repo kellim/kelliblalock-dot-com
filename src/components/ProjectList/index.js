@@ -9,8 +9,13 @@ const Project = (props) => (
         <div className={styles.projectImage}>
             <a href={props.gitHubLink}><Img fluid={props.image.childImageSharp.fluid} alt={props.name} /></a>
         </div>
-        <div className={styles.links}><a href={props.gitHubLink}>GitHub</a> | <a href={props.demoLink}>Demo</a></div>
-        <p>{props.description}</p>
+        <div className={styles.projectInfo}>
+            <p>{props.description}</p>
+            <div className={styles.links}>
+                <a href={props.gitHubLink}>GitHub</a>
+                <a href={props.demoLink}>Demo</a>
+            </div>
+        </div>
     </li>
   )
 
