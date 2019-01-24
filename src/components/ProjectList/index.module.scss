@@ -5,6 +5,10 @@
     h2 {
         margin-bottom: 3rem;
         text-align: center;
+
+        @media #{$large} {
+            margin-bottom: 6rem;
+        }
     }
 
     ul {
@@ -25,12 +29,22 @@
                 "image title title"
                 "image info info";
                 margin-bottom: 5rem;
+
+                &:nth-child(even) {
+                    grid-template-areas:
+                    "title title image"
+                    "info info image";
+                }
             }
 
-            &:nth-child(even) {
-                grid-template-areas:
-                "title title image"
-                "info info image";
+            @media #{$large} {
+                grid-column-gap: 23rem;
+                grid-template-rows: 5rem auto;
+                margin-bottom: 8rem;
+            }
+
+            @media #{$extraLarge} {
+                grid-column-gap: 27rem;
             }
 
             h3 {
@@ -53,8 +67,8 @@
                     font-size: 2rem;
                 }
 
-                @media #{$medium} {
-                   // font-size: 2.2rem;
+                @media #{$extraLarge} {
+                    font-size: 2.4rem;
                 }
             }
             
@@ -70,6 +84,10 @@
                     width: 25rem;
                     grid-area: image;
                     align-self: center;
+                }
+
+                @media #{$large} {
+                    width: 37.5rem;
                 }
 
             }
@@ -100,7 +118,6 @@
                     @media #{$medium} {
                         font-size: 2.6rem;
                     }
-
 
                     &:hover,
                     &:active {
