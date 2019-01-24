@@ -1,0 +1,43 @@
+.footer {
+    background-color: $light_mint;
+    padding: #{$component_padding} #{$side_padding};
+
+    a {
+        text-decoration: none;
+        color: $dark_mint;
+        font-weight: 700;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        font-size: 1.6rem;
+        text-align: center;
+
+        @media #{$medium} {
+            font-size: 2rem;
+        }
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 2rem;
+            font-size: 2.2rem;
+
+            @media #{$medium} {
+                font-size: 2.8rem;
+            }
+
+            @media #{$large} {
+                font-size: 3rem;
+            }
+        }
+    }
+}

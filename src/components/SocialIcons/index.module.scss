@@ -7,13 +7,9 @@
         color: $dark_mint;
         font-size: 4rem;
 
-        @media(min-width: 48.1em) {
+        @media #{$small} {
             font-size: 5rem;
-        }
-        
-        @media(min-width: 76.8em) {
-            font-size: 6rem;
-        }
+        }      
     }
 }
 

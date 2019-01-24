@@ -38,13 +38,13 @@
             }
 
             @media #{$large} {
-                grid-column-gap: 23rem;
+                grid-column-gap: 20rem;
                 grid-template-rows: 5rem auto;
                 margin-bottom: 8rem;
             }
 
             @media #{$extraLarge} {
-                grid-column-gap: 27rem;
+                grid-column-gap: 25rem;
             }
 
             h3 {
