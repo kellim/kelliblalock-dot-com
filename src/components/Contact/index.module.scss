@@ -1,0 +1,31 @@
+.contact {
+    padding: #{$component_padding} #{$side_padding} #{$component_padding} #{$side_padding};
+
+    h2 {
+        margin-bottom: 3rem;
+        text-align: center;
+
+        @media #{$large} {
+            margin-bottom: 6rem;
+        }
+    }
+
+    p {
+        font-size: 1.8rem;
+        text-align: center;
+    
+        @media #{$small} {
+          font-size: 2.2rem;
+        }
+      }
+
+      a {
+        font-weight: 700;
+        text-decoration: none;
+        color: $dark_mint;
+
+        &:hover {
+            text-decoration: underline;
+        }
+      }
+}

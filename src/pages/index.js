@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Main from '../components/main'
 import About from '../components/about'
+import Contact from '../components/contact'
 import ProjectList from '../components/ProjectList'
 
 import { checkPropTypes } from 'prop-types';
@@ -17,6 +18,7 @@ const IndexPage = (props) => (
       <Main />
       <About data={props.data} />
       <ProjectList data={props.data}/>
+      <Contact />
     </div>
   </Layout>
 )
