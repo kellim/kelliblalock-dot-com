@@ -90,6 +90,10 @@
                     width: 37.5rem;
                 }
 
+                @media #{$extraLarge} {
+                    width: 45rem;
+                }
+
             }
 
             .projectInfo {
