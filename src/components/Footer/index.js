@@ -3,7 +3,7 @@ import SocialIcons from '../SocialIcons'
 import styles from './index.module.scss'
 
 const Footer = (props) => (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
         <div className={styles.links}>
         <ul>
             <li><a href="#home">Home</a></li>
@@ -15,7 +15,7 @@ const Footer = (props) => (
         <p>Site created by Kelli Blalock using Gatsby/React</p>
         <p>Check out <a href="https://github.com/kellim/kelliblalock-dot-com">the code for this site</a>.</p>
         <SocialIcons />
-    </div>
+    </footer>
  )
 
 export default Footer
