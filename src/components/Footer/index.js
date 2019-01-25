@@ -5,10 +5,12 @@ import styles from './index.module.scss'
 const Footer = (props) => (
     <div className={styles.footer}>
         <div className={styles.links}>
-            <a href="#home">Home</a>
-            <a href="#about-section">About</a>
-            <a href="#projects-section">Projects</a>
-            {/*  */}
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+        </ul>          
+
         </div>
         <p>Site created by Kelli Blalock using Gatsby/React</p>
         <p>Check out <a href="https://github.com/kellim/kelliblalock-dot-com">the code for this site</a>.</p>

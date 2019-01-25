@@ -10,25 +10,25 @@
         font-weight: 700;
 
         @media #{$small} {
-            font-size: 8.4rem;
+            font-size: 7.4rem;
         }
 
         @media #{$medium} {
-            font-size: 9.4rem;
+            font-size: 8.4rem;
         }
     }
 
     h2 {
         font-size: 4.4rem;
         font-weight: 300;
-        margin-top: 0;
+        margin-bottom: .25rem;
 
         @media #{$small} {
-            font-size: 6.4rem;
+            font-size: 5.4rem;
         }
 
         @media #{$medium} {
-            font-size: 7.4rem;
+            font-size: 6.4rem;
         }
     }
 }

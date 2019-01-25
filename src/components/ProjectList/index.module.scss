@@ -3,8 +3,7 @@
     padding: #{$component_padding} #{$side_padding};
 
     h2 {
-        margin-bottom: 3rem;
-        text-align: center;
+        margin-bottom: 3rem; /* Looks better with extra space before projects */
 
         @media #{$large} {
             margin-bottom: 6rem;
@@ -58,20 +57,7 @@
                     grid-area: title;
                   }
             }
-
-            p {
-                margin-top: .5rem;
-                font-size: 1.8rem;
-
-                @media #{$small} {
-                    font-size: 2rem;
-                }
-
-                @media #{$extraLarge} {
-                    font-size: 2.4rem;
-                }
-            }
-            
+          
             img  {
                 border-radius: 5px;
             }
@@ -93,7 +79,6 @@
                 @media #{$extraLarge} {
                     width: 45rem;
                 }
-
             }
 
             .projectInfo {
@@ -113,19 +98,10 @@
                 margin-top: .5rem;
     
                 a {
-                    display: block;
-                    color: $dark_mint;
-                    text-decoration: none;
-                    font-weight: 700;
                     font-size: 2.2rem;
 
                     @media #{$medium} {
                         font-size: 2.6rem;
-                    }
-
-                    &:hover,
-                    &:active {
-                        text-decoration: underline;
                     }
                 }
             }

@@ -9,10 +9,13 @@ import { FaDev } from 'react-icons/fa'
 
 const SocialIcons = ( {linkedIn, github, twitter, devTo} ) => (
   <div className={styles.socialIcons}>
-    <a href="https://www.linkedin.com/in/kelliblalock/" aria-label="LinkedIn Profile"><FaLinkedinIn /></a>
-    <a href="https://github.com/kellim" aria-label="GitHub Profile"><FaGithubAlt /></a>
-    <a href="https://twitter.com/kellimb123" aria-label="Twitter Profile"><FaTwitter /></a>
-    <a href="https://dev.to/kelli" aria-label="Dev.to Profile"><FaDev /></a>
+  <ul>
+    <li><a href="https://www.linkedin.com/in/kelliblalock/" aria-label="LinkedIn Profile"><FaLinkedinIn /></a></li>
+    <li><a href="https://github.com/kellim" aria-label="GitHub Profile"><FaGithubAlt /></a></li>
+    <li><a href="https://twitter.com/kellimb123" aria-label="Twitter Profile"><FaTwitter /></a></li>
+    <li><a href="https://dev.to/kelli" aria-label="Dev.to Profile"><FaDev /></a></li>
+  </ul>
+
   </div>
  )
 

@@ -1,15 +1,23 @@
 .socialIcons {
-    display: flex;
-    justify-content: center;
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        list-style-type: none;
+        margin: 0 2rem;
+    }
 
     a {
-        margin: 2rem;
-        color: $dark_mint;
         font-size: 4rem;
-
-        @media #{$small} {
-            font-size: 5rem;
-        }      
+        display: inline-block;
+        transition: all .2s ease-in-out;
+        
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
 

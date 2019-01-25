@@ -29,7 +29,31 @@ h3 {
 }
 
 h2 {
-  font-size: 6.2rem;
+  font-size: 5rem;
   font-weight: 300;
   color: $dark_mint;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+a {
+  color: $dark_mint;
+  font-weight: 700;
+  text-decoration: none;
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+}
+
+p {
+  font-size: 1.8rem;
+
+  @media #{$small} {
+      font-size: 2rem;
+  }
+
+  @media #{$extraLarge} {
+      font-size: 2.4rem;
+  }
 }

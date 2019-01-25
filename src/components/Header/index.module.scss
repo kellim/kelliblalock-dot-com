@@ -29,6 +29,7 @@ nav {
         &:hover,
         &:active {
             color: $light_mint;
+            text-decoration: none;
         }
 
         @media #{$medium} {

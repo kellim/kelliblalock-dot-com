@@ -2,14 +2,11 @@
     background-color: $light_mint;
     padding: #{$component_padding} #{$side_padding};
 
-    a {
-        text-decoration: none;
-        color: $dark_mint;
-        font-weight: 700;
-
-        &:hover {
-            text-decoration: underline;
-        }
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        flex-wrap: wrap;
     }
 
     p {
@@ -26,10 +23,19 @@
         justify-content: center;
 
         a {
-            text-decoration: none;
-            display: inline-block;
-            margin: 2rem;
+            margin: 0 2rem 1rem 2rem;
             font-size: 2.2rem;
+            display: inline-block;
+            transition: all .2s ease-in-out;
+
+            &:hover,
+            &:active {
+                text-decoration: none;
+            }
+
+            &:hover {
+                transform: scale(1.1);
+            }
 
             @media #{$medium} {
                 font-size: 2.8rem;
