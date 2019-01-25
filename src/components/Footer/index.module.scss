@@ -16,6 +16,10 @@
         @media #{$medium} {
             font-size: 2rem;
         }
+
+        &:last-of-type {
+            margin-bottom: 2rem;
+        }
     }
 
     .links {

@@ -12,7 +12,7 @@ const Footer = (props) => (
         </ul>          
 
         </div>
-        <p>Site created by Kelli Blalock using Gatsby/React</p>
+        <p>Site created by Kelli Blalock using Gatsby.</p>
         <p>Check out <a href="https://github.com/kellim/kelliblalock-dot-com">the code for this site</a>.</p>
         <SocialIcons />
     </footer>
