@@ -3,7 +3,7 @@ import Img from 'gatsby-image'
 import styles from './index.module.scss'
 
 const About = (props) => (
-    <div className={styles.about} id="about-section">
+    <div className={styles.about} id="about">
         <div className={styles.headshot}>
             <Img fluid={props.data.headshotImage.childImageSharp.fluid} alt="Kelli Blalock" />
         </div>

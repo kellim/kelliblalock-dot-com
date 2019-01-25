@@ -1,0 +1,38 @@
+nav {
+    background-color: $dark_mint;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        @media #{$small} {
+            justify-content: flex-end;
+            flex-wrap: nowrap;
+        }
+    }
+
+    li {
+        list-style-type: none;
+        padding: 1.5rem;
+
+        @media #{$medium} {
+            padding: 1.5rem 2.5rem;
+        }
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+        font-weight: 700;
+
+        &:hover,
+        &:active {
+            color: $light_mint;
+        }
+
+        @media #{$medium} {
+            font-size: 1.8rem;
+        }
+    }
+}
