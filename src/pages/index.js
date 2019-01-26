@@ -3,10 +3,10 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Main from '../components/main'
-import About from '../components/about'
+import Main from '../components/Main'
+import About from '../components/About'
 import ProjectList from '../components/ProjectList'
-import Contact from '../components/contact'
+import Contact from '../components/Contact'
 import { checkPropTypes } from 'prop-types';
 
 
