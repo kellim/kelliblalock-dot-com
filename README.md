@@ -1,6 +1,7 @@
 # kelliblalock.com
 
-This repository is for my website/portfolio being built with Gatsby. It's a work in progress and is not online yet.
+This repository is for my website [kelliblalock.com](https://www.kelliblalock.com) that was built with Gatsby.
+
 
 ## Run Project Locally in Development Mode
 
@@ -17,3 +18,5 @@ This repository is for my website/portfolio being built with Gatsby. It's a work
 * [React](https://reactjs.org/)
 * JavaScript
 * [SASS](https://sass-lang.com/)
+* CSS Grid
+* Flexbox
