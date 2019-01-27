@@ -12,7 +12,7 @@ import { checkPropTypes } from 'prop-types';
 
 const IndexPage = (props) => (
   <Layout>
-    <SEO title="Kelli Blalock" keywords={['seattle software engineer', 'seattle web developer', 'bellevue web developer', 'javascript developer', 'web developer portfolio']} />
+    <SEO title="Kelli Blalock" keywords={[`seattle software engineer`, `seattle web developer`, `bellevue web developer`, `javascript developer`, `web developer portfolio`]} />
     <div>
       <Main />
       <About data={props.data} />
