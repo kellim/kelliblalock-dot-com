@@ -39,7 +39,7 @@ export const pageQuery = graphql`
     headshotImage: file(relativePath: { eq: "kelli.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 250) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
