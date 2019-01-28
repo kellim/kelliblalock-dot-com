@@ -5,5 +5,5 @@
  */
 
 // You can delete this file if you're not using it
-
-import './src/scss/global.scss'
+require('typeface-quattrocento-sans')
+require('./src/scss/global.scss')

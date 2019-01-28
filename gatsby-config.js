@@ -42,10 +42,8 @@ module.exports = {
         fonts: [
           {
           family: `Quattrocento Sans`,
-          subsets: [`latin`],
-          variants: [`400`, `700`]
           }
-        ]
+        ],
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
