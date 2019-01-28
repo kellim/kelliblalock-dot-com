@@ -18,7 +18,7 @@ This repository is for my website [kelliblalock.com](https://www.kelliblalock.co
 ### Run Production Build
 * Run `gatsby build`
 * Run `gatsby serve`
-* Navigate to ``http://localhost:9000/` in your browser.
+* Navigate to `http://localhost:9000/` in your browser.
 
 ## Technologies Used
 
