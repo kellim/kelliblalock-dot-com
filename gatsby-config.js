@@ -34,16 +34,14 @@ module.exports = {
         includePaths: [
           'src/scss',
         ],
-      },
+      }
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-          family: `Quattrocento Sans`,
-          }
-        ],
+          `Quattrocento Sans\:400,400i,700,700i`
+        ]
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

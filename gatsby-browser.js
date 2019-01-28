@@ -5,5 +5,4 @@
  */
 
 // You can delete this file if you're not using it
-require('typeface-quattrocento-sans')
 require('./src/scss/global.scss')

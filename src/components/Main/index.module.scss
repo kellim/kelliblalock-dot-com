@@ -7,7 +7,6 @@
 
     h1 {
         font-size: 5.4rem;
-        font-weight: 700;
 
         @media #{$small} {
             font-size: 7.4rem;
@@ -21,6 +20,7 @@
     h2 {
         font-size: 4.4rem;
         margin-bottom: .25rem;
+        font-weight: 400;
 
         @media #{$small} {
             font-size: 5.4rem;
