@@ -37,10 +37,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
-          'Quattrocento Sans',
+          {
+          family: `Quattrocento Sans`,
+          subsets: [`latin`],
+          variants: [`400`, `700`]
+          }
         ]
       }
     }
