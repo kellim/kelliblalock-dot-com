@@ -43,7 +43,7 @@ module.exports = {
           `Quattrocento Sans\:400,400i,700,700i`
         ]
       }
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
