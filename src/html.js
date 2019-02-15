@@ -11,7 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link rel="preload" href="./fonts/quattrocento-sans-v11-latin-regular.woff" as="font" type="font/woff2"></link>
+        <link rel="preload" href="./fonts/quattrocento-sans-v11-latin-regular.woff2" as="font" type="font/woff2"></link>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
