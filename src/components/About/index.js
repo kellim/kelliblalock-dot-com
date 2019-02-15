@@ -5,7 +5,7 @@ import styles from './index.module.scss'
 const About = (props) => (
     <div className={styles.about} id="about">
         <div className={styles.headshot}>
-            <Img fluid={props.data.headshotImage.childImageSharp.fluid} alt="Kelli Blalock" fadeIn="false" />
+            <Img fluid={props.data.headshotImage.childImageSharp.fluid} alt="Kelli Blalock" fadeIn={false} />
         </div>
         <div className={styles.myInfo}>
             <h2>About</h2>

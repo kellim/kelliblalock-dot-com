@@ -7,7 +7,7 @@ const projectData = require('../../data/project-data.json')
 const Project = (props) => (
     <li><h3>{props.name}</h3>
         <div className={styles.projectImage}>
-            <a href={props.gitHubLink}><Img fluid={props.image.childImageSharp.fluid} alt={props.name} /></a>
+            <a href={props.gitHubLink}><Img fluid={props.image.childImageSharp.fluid} alt={props.name} fadeIn={false} /></a>
         </div>
         <div className={styles.projectInfo}>
             <p>{props.description}</p>
