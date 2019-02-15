@@ -5,4 +5,5 @@
  */
 
 // You can delete this file if you're not using it
+require('./src/scss/fonts.scss')
 require('./src/scss/global.scss')
