@@ -2,6 +2,10 @@
 
 This repository is for my website [kelliblalock.com](https://www.kelliblalock.com) that was built with Gatsby.
 
+## DEMO
+
+Here's what the site looks like as of 2/10/19
+![demo](demo/kelliblalock-dot-com-demo.gif)
 
 ## Run Project Locally
 
