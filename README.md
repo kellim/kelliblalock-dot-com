@@ -5,7 +5,7 @@ This repository is for my website [kelliblalock.com](https://www.kelliblalock.co
 ## DEMO
 
 Here's what the site looks like as of 2/10/19
-![demo](demo/kelliblalock-dot-com-demo.gif)
+![demo](demo/demo.gif)
 
 ## Run Project Locally
 
