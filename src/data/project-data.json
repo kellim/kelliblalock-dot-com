@@ -1,17 +1,18 @@
 [
+
   {
-    "name": "Farmer's Market Finder",
-    "image": "project1",
-    "description": "Web app built with JavaScript, jQuery, Bootstrap and Knockout that lets visitors enter a US zip code and shows nearby Farmers Markets based on data obtained from the USDA National Farmers Market Directory on a Google Map.",
-    "gitHubLink": "https://github.com/kellim/farmers-market-finder",
-    "demoLink": "https://farmersmarkets.kelli.app"
+    "name": "Musical Chairs: Automated",
+    "image": "project6",
+    "description": "React app using the <audio> element that lets you automate the starting and stopping of music in a Musical Chairs game.",
+    "gitHubLink": "https://github.com/kellim/musical-chairs",
+    "demoLink": "https://musicalchairs.kelli.app/"
   },
   {
-    "name": "Link Collector",
-    "image": "project2",
-    "description": "Multi-user bookmarking web app built with Python and Flask that users can log in to with Google. Admin users can create categories and collections of links and edit or delete any links. Regular users can add links and update or delete their own links.",
-    "gitHubLink": "https://github.com/kellim/link-collector",
-    "demoLink": "https://links.pythonanywhere.com"
+    "name": "Hearthstone Card Search",
+    "image": "project5",
+    "description": "This Node.js/Express app gets card data from an API and lets you search cards and filter by multiple classes, sets, types, rarities, tribes, and mechanics.",
+    "gitHubLink": "https://github.com/kellim/hearthstone-card-search-app",
+    "demoLink": "https://hscardsearch.glitch.me/"
   },
   {
     "name": "Hearthstone Deck Saver",
@@ -26,5 +27,19 @@
     "description": "This web app built with JavaScript lets you input the number of minutes you'd like to meditate and counts down from that time to zero alerting you with a sound and a popup window when the time is up. You can also reset the timer as well as pause, stop, and resume the countdown.",
     "gitHubLink": "https://github.com/kellim/meditation-timer",
     "demoLink": "https://meditationtimer.kelli.app"
+  },
+  {
+    "name": "Farmer's Market Finder",
+    "image": "project1",
+    "description": "Web app built with JavaScript, jQuery, Bootstrap and Knockout that lets visitors enter a US zip code and shows nearby Farmers Markets based on data obtained from the USDA National Farmers Market Directory on a Google Map.",
+    "gitHubLink": "https://github.com/kellim/farmers-market-finder",
+    "demoLink": "https://farmersmarkets.kelli.app"
+  },
+  {
+    "name": "Link Collector",
+    "image": "project2",
+    "description": "Multi-user bookmarking web app built with Python and Flask that users can log in to with Google. Admin users can create categories and collections of links and edit or delete any links. Regular users can add links and update or delete their own links.",
+    "gitHubLink": "https://github.com/kellim/link-collector",
+    "demoLink": "https://links.pythonanywhere.com"
   }
 ]

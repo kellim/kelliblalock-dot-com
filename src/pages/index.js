@@ -54,6 +54,12 @@ export const pageQuery = graphql`
     }
     project4: file(relativePath: { eq: "project4.png" }) {
       ...projectImage
-    }
+    },
+    project5: file(relativePath: { eq: "project5.png" }) {
+      ...projectImage
+    },
+    project6: file(relativePath: { eq: "project6.png" }) {
+      ...projectImage
+    },
   }
 `
